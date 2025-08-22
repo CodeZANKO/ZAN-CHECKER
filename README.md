@@ -28,21 +28,21 @@ A modern, feature-rich account checker application with a beautiful GUI interfac
 # Supported Services
 + MidasBuy
 
-+ Netflix
++ Netflix (coming soon)
 
 + Spotify
 
 + Steam
 
-+ Discord
++ Discord (coming soon)
 
 + Amazon
 
-+ PayPal
++ PayPal (coming soon)
 
 + Microsoft
 
-+ Apple ID
++ Apple ID (coming soon)
 
 + Crunchyroll
 
