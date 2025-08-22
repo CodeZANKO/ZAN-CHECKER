@@ -7,57 +7,57 @@ https://img.shields.io/badge/Web-Automation-orange.svg
 A modern, feature-rich account checker application with a beautiful GUI interface built with CustomTkinter. This tool allows you to verify account credentials across multiple popular services including Netflix, Spotify, Steam, Discord, and more.
 
 # Features
-🎨 Modern GUI: Beautiful dark/light theme interface with CustomTkinter
++ 🎨 Modern GUI: Beautiful dark/light theme interface with CustomTkinter
 
-🌐 Multi-Platform Support: Check accounts on 10+ popular services
++ 🌐 Multi-Platform Support: Check accounts on 10+ popular services
 
-⚡ Dual Checking Methods: Selenium-based browser automation
++ ⚡ Dual Checking Methods: Selenium-based browser automation
 
-🔄 Proxy Support: Rotate proxies with various protocol options
++ 🔄 Proxy Support: Rotate proxies with various protocol options
 
-📊 Real-time Statistics: Live tracking of valid/invalid accounts
++ 📊 Real-time Statistics: Live tracking of valid/invalid accounts
 
-💾 Results Export: Save valid accounts to text files
++ 💾 Results Export: Save valid accounts to text files
 
-🔔 Telegram Notifications: Get instant alerts for valid accounts
++ 🔔 Telegram Notifications: Get instant alerts for valid accounts
 
-🎯 Customizable Settings: Adjust threads, timeouts, and delays
++ 🎯 Customizable Settings: Adjust threads, timeouts, and delays
 
-🖥️ Cross-Platform: Works on Windows, macOS, and Linux
++ 🖥️ Cross-Platform: Works on Windows, macOS, and Linux
 
 # Supported Services
-MidasBuy
++ MidasBuy
 
-Netflix
++ Netflix
 
-Spotify
++ Spotify
 
-Steam
++ Steam
 
-Discord
++ Discord
 
-Amazon
++ Amazon
 
-PayPal
++ PayPal
 
-Microsoft
++ Microsoft
 
-Apple ID
++ Apple ID
 
-Crunchyroll
++ Crunchyroll
 
 # Installation
 ### Prerequisites
-Python 3.8 or higher
++ Python 3.8 or higher
 
-Google Chrome browser
++ Google Chrome browser
 
-Stable internet connection
++ Stable internet connection
 
 # Step-by-Step Installation
-Clone or download this repository
+1. Clone or download this repository
 
-Install required dependencies:
+2. Install required dependencies:
 
 ```
 pip install -r requirements.txt
@@ -68,31 +68,31 @@ Alternatively, install dependencies manually:
 ```
 pip install customtkinter selenium webdriver-manager requests undetected-chromedriver pillow
 ```
-Download ChromeDriver (automatically handled by webdriver-manager)
+3. Download ChromeDriver (automatically handled by webdriver-manager)
 
-Configure your Telegram bot token and chat ID in the script (optional)
+4. Configure your Telegram bot token and chat ID in the script (optional)
 
 # Usage
-Launch the application:
+1. Launch the application:
 
 
 ```
 python zan_checker.py
 ```
-Load account combos: Click "Load Combos" and select a text file with email:password combinations
+2. Load account combos: Click "Load Combos" and select a text file with email:password combinations
 
-Load proxies (optional): Click "Load Proxies" to add proxy support
+3. Load proxies (optional): Click "Load Proxies" to add proxy support
 
-Select target sites: Choose which services to check from the Site Selection tab
+4. Select target sites: Choose which services to check from the Site Selection tab
 
-Configure settings: Adjust threads, timeout, and delay in the Configuration tab
+5. Configure settings: Adjust threads, timeout, and delay in the Configuration tab
 
-Start checking: Click "Start Check" to begin verification
+6. Start checking: Click "Start Check" to begin verification
 
-Monitor progress: View real-time results in the Results tab
+7. Monitor progress: View real-time results in the Results tab
 
 # File Formats
-Combos file format:
+### Combos file format:
 
 Combo.txt
 ```
@@ -100,9 +100,9 @@ email:password
 user@example.com:password123
 anotheruser@domain.com:pass456
 ```
-Proxies file format:
+### Proxies file format:
 
-text
+Proxies.txt
 ```
 ip:port
 192.168.1.1:8080
@@ -110,11 +110,11 @@ proxy.example.com:3128
 ```
 # Configuration
 ## Telegram Notifications
-To enable Telegram notifications:
+### To enable Telegram notifications:
 
-Create a bot using BotFather
+1. Create a bot using [BotFather] (https://t.me/BotFather)
 
-Get your bot token and replace the default one in the code:
+2. Get your bot token and replace the default one in the code:
 
 python
 ```
@@ -124,14 +124,15 @@ chat_id = 'YOUR_CHAT_ID'
 # Appearance Settings
 Customize the application's look and feel:
 
-Choose between System, Light, or Dark mode
++ Choose between System, Light, or Dark mode
 
-Select from multiple color themes (blue, green, dark-blue)
++ Select from multiple color themes (blue, green, dark-blue)
 
-Settings are automatically saved between sessions
++ Settings are automatically saved between sessions
 
 # Project Structure
-text
+
+```
 zan_checker.py
 ├── ModernChecker class
 │   ├── __init__(): Initialize GUI and variables
@@ -142,6 +143,7 @@ zan_checker.py
 │   ├── check_*_selenium(): Site-specific check methods
 │   └── run_check(): Main checking logic
 └── SITE_CONFIGS: Configuration for supported services
+```
 # Disclaimer
 This tool is intended for educational purposes and legitimate account verification only. Always ensure you have permission to check any accounts. The developers are not responsible for misuse of this software.
 
