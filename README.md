@@ -65,7 +65,9 @@ pip install -r requirements.txt
 Alternatively, install dependencies manually:
 
 
-`pip install customtkinter selenium webdriver-manager requests undetected-chromedriver pillow`
+```
+pip install customtkinter selenium webdriver-manager requests undetected-chromedriver pillow
+```
 Download ChromeDriver (automatically handled by webdriver-manager)
 
 Configure your Telegram bot token and chat ID in the script (optional)
@@ -74,7 +76,9 @@ Configure your Telegram bot token and chat ID in the script (optional)
 Launch the application:
 
 
-`python zan_checker.py`
+```
+python zan_checker.py
+```
 Load account combos: Click "Load Combos" and select a text file with email:password combinations
 
 Load proxies (optional): Click "Load Proxies" to add proxy support
@@ -113,9 +117,11 @@ Create a bot using BotFather
 Get your bot token and replace the default one in the code:
 
 python
+```
 token = 'YOUR_TELEGRAM_BOT_TOKEN'
 chat_id = 'YOUR_CHAT_ID'
-Appearance Settings
+```
+# Appearance Settings
 Customize the application's look and feel:
 
 Choose between System, Light, or Dark mode
@@ -124,7 +130,7 @@ Select from multiple color themes (blue, green, dark-blue)
 
 Settings are automatically saved between sessions
 
-Project Structure
+# Project Structure
 text
 zan_checker.py
 ├── ModernChecker class
@@ -136,13 +142,13 @@ zan_checker.py
 │   ├── check_*_selenium(): Site-specific check methods
 │   └── run_check(): Main checking logic
 └── SITE_CONFIGS: Configuration for supported services
-Disclaimer
+# Disclaimer
 This tool is intended for educational purposes and legitimate account verification only. Always ensure you have permission to check any accounts. The developers are not responsible for misuse of this software.
 
-License
+# License
 This project is for educational purposes. Please use responsibly and in compliance with all applicable laws and terms of service of the platforms accessed.
 
-Support
+# Support
 For issues and questions:
 
 Ensure all dependencies are properly installed
@@ -153,7 +159,7 @@ Check that your combos file is properly formatted
 
 For proxy issues, verify your proxies are working
 
-Contributing
+# Contributing
 Contributions are welcome! Feel free to:
 
 Add support for new services
