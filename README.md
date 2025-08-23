@@ -1,8 +1,9 @@
 # ZAN-CHECKER
 # ZAN+ Checker - Universal Account Verification Tool
-https://img.shields.io/badge/Python-3.8%252B-blue.svg
-https://img.shields.io/badge/GUI-CustomTkinter-green.svg
-https://img.shields.io/badge/Web-Automation-orange.svg
+<img width="1047" height="858" alt="Screenshot 2025-08-23 213331" src="https://github.com/user-attachments/assets/2e52da2d-1892-4b55-8b1a-2d74407f13c1" />
+
+<img width="1047" height="858" alt="Screenshot 2025-08-23 213331" src="https://github.com/user-attachments/assets/de8ba944-c977-40e9-9108-70c48a709a99" />
+<img width="1026" height="803" alt="Screenshot 2025-08-23 213402" src="https://github.com/user-attachments/assets/9819365f-01cb-476a-bfcf-9b78c77f9753" />
 
 A modern, feature-rich account checker application with a beautiful GUI interface built with CustomTkinter. This tool allows you to verify account credentials across multiple popular services including Netflix, Spotify, Steam, Discord, and more.
 
